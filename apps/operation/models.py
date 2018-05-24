@@ -12,7 +12,7 @@ class UserAsk(models.Model):
     name = models.CharField(max_length=20, verbose_name=u'姓名')
     mobile = models.CharField(max_length=11, verbose_name=u'手机')
     course_name = models.CharField(max_length=50, verbose_name=u'课程名')
-    add_tiem = models.DateTimeField(default=datetime.now, verbose_name=u'添加时间')
+    add_time = models.DateTimeField(default=datetime.now, verbose_name=u'添加时间')
 
     class Meta:
         verbose_name = u'用户咨询'

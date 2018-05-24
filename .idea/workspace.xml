@@ -2,44 +2,398 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d3b7e98-d4e3-44b3-8ced-9c688a0980c6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/courses/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/organization/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/courses/adminx.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/adminx.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0002_auto_20180524_1023.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/organization/adminx.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/adminx.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/migrations/0004_auto_20180523_1221.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/.tx/config" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/adminx.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/filters.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/forms.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/layout.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/de_DE/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/de_DE/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/de_DE/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/de_DE/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/en/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/en/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/en/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/en/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/es_MX/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/es_MX/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/es_MX/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/es_MX/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/eu/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/eu/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/eu/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/eu/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/id_ID/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/id_ID/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/id_ID/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/id_ID/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/ja/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/ja/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/ja/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/ja/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/lt/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/lt/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/lt/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/lt/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/nl_NL/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/nl_NL/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/nl_NL/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/nl_NL/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/pl/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/pl/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/pl/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/pl/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/pt_BR/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/pt_BR/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/pt_BR/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/pt_BR/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/ru_RU/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/ru_RU/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/ru_RU/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/ru_RU/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/zh_Hans/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/zh_Hans/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/zh_Hans/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/locale/zh_Hans/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/migrations/0002_log.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/migrations/0003_auto_20160715_0100.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/actions.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/aggregation.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/ajax.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/auth.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/batch.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/bookmark.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/chart.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/comments.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/details.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/editable.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/export.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/filters.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/images.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/importexport.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/inline.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/language.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/layout.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/mobile.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/multiselect.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/passwords.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/portal.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/quickfilter.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/quickform.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/refresh.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/relate.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/relfield.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/sitemenu.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/sortablelist.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/themes.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/topnav.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/utils.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/wizard.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/plugins/xversion.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/sites.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/component.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/themes/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/themes/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/themes/bootstrap-xadmin.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/xadmin.form.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/xadmin.main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/xadmin.mobile.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/xadmin.page.dashboard.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/xadmin.plugin.aggregation.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/xadmin.plugin.formset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/xadmin.plugin.importexport.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/xadmin.plugin.quickfilter.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/xadmin.plugins.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/xadmin.responsive.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/xadmin.widget.editable.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/css/xadmin.widget.select-transfer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.page.dashboard.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.page.form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.page.list.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.actions.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.batch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.bookmark.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.charts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.details.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.editable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.filters.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.formset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.importexport.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.portal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.quick-form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.quickfilter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.refresh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.revision.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.sortablelist.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.plugin.themes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.responsive.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.widget.datetime.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.widget.multiselect.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.widget.select-transfer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/js/xadmin.widget.select.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/autotype/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.bg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ca.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.cs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.da.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.he.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.is.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.it.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ja.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.kr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ms.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs-latin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.th.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.tr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.uk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-TW.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-image-gallery/img/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-modal/css/bootstrap-modal.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-modal/img/ajax-loader.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modalmanager.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-multiselect/js/bootstrap-multiselect.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/excanvas.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/excanvas.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.colorhelpers.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.aggregate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.canvas.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.categories.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.crosshair.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.errorbars.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.fillbetween.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.image.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.navigate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.pie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.resize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.selection.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.stack.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.symbol.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.threshold.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/flot/jquery.flot.time.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.core.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.effect.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.effect.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.widget.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.widget.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/jquery/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/jquery/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/load-image/load-image.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/load-image/load-image.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2-spinner.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_eu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_hr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_hu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_it.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_nl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_pt-BR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_pt-PT.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_ro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_sk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_sv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_tr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_ua.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_zh-CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2_locale_zh-hans.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/select2/select2x2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/selectize/selectize.bootstrap2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/selectize/selectize.bootstrap3.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/selectize/selectize.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/selectize/selectize.default.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/selectize/selectize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/selectize/selectize.legacy.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/selectize/selectize.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/snapjs/snap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/snapjs/snap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/static/xadmin/vendor/snapjs/snap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/404.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/500.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/auth/password_reset/complete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/auth/password_reset/confirm.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/auth/password_reset/done.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/auth/password_reset/email.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/auth/password_reset/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/auth/user/add_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/auth/user/change_password.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/base.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/base_site.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.setlang.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.theme.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.topnav.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/modal_list.left_navbar.quickfilter.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/model_form.before_fieldsets.wizard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/model_form.submit_line.wizard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/model_list.nav_form.search_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/model_list.nav_menu.bookmarks.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/model_list.nav_menu.filters.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/model_list.results_bottom.actions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/model_list.results_top.charts.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/model_list.results_top.date_hierarchy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/model_list.top_toolbar.exports.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/model_list.top_toolbar.importexport.export.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/model_list.top_toolbar.importexport.import.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/model_list.top_toolbar.layouts.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/model_list.top_toolbar.refresh.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/model_list.top_toolbar.saveorder.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/edit_inline/accordion.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/edit_inline/base.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/edit_inline/blank.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/edit_inline/one.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/edit_inline/stacked.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/edit_inline/tab.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/edit_inline/tabular.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/filters/char.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/filters/checklist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/filters/date.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/filters/fk_search.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/filters/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/filters/number.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/filters/quickfilter.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/filters/rel.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/forms/transfer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/grids/thumbnails.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/import_export/export_action.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/import_export/import.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/includes/box.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/includes/pagination.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/includes/sitemenu_accordion.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/includes/sitemenu_default.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/includes/submit_line.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/includes/toggle_back.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/includes/toggle_menu.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/layout/field_value.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/layout/field_value_td.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/layout/fieldset.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/layout/input_group.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/layout/td-field.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/app_index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/batch_change_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/invalid_setup.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/logged_out.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/model_dashboard.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/model_delete_confirm.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/model_delete_selected_confirm.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/model_detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/model_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/model_history.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/model_list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/quick_detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/quick_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/recover_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/recover_list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/revision_diff.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/views/revision_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/widgets/addform.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/widgets/base.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/widgets/chart.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/widgets/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/widgets/qbutton.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templatetags/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/templatetags/xadmin_tags.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/vendors.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/views/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/views/base.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/views/dashboard.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/views/delete.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/views/detail.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/views/edit.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/views/form.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/views/list.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/views/website.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/extra_app/xadmin/widgets.py" />
       <change beforePath="$PROJECT_DIR$/.idea/MxOnline.iml" afterPath="$PROJECT_DIR$/.idea/MxOnline.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/MxOnline/settings.py" afterPath="$PROJECT_DIR$/MxOnline/settings.py" />
-      <change beforePath="$PROJECT_DIR$/courses/__init__.py" afterPath="$PROJECT_DIR$/apps/courses/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/courses/admin.py" afterPath="$PROJECT_DIR$/apps/courses/admin.py" />
-      <change beforePath="$PROJECT_DIR$/courses/apps.py" afterPath="$PROJECT_DIR$/apps/courses/apps.py" />
-      <change beforePath="$PROJECT_DIR$/courses/migrations/__init__.py" afterPath="$PROJECT_DIR$/apps/courses/migrations/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/courses/models.py" afterPath="$PROJECT_DIR$/apps/courses/models.py" />
-      <change beforePath="$PROJECT_DIR$/courses/tests.py" afterPath="$PROJECT_DIR$/apps/courses/tests.py" />
-      <change beforePath="$PROJECT_DIR$/courses/views.py" afterPath="$PROJECT_DIR$/apps/courses/views.py" />
-      <change beforePath="$PROJECT_DIR$/operation/__init__.py" afterPath="$PROJECT_DIR$/apps/operation/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/operation/admin.py" afterPath="$PROJECT_DIR$/apps/operation/admin.py" />
-      <change beforePath="$PROJECT_DIR$/operation/apps.py" afterPath="$PROJECT_DIR$/apps/operation/apps.py" />
-      <change beforePath="$PROJECT_DIR$/operation/migrations/__init__.py" afterPath="$PROJECT_DIR$/apps/operation/migrations/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/operation/models.py" afterPath="$PROJECT_DIR$/apps/operation/models.py" />
-      <change beforePath="$PROJECT_DIR$/operation/tests.py" afterPath="$PROJECT_DIR$/apps/operation/tests.py" />
-      <change beforePath="$PROJECT_DIR$/operation/views.py" afterPath="$PROJECT_DIR$/apps/operation/views.py" />
-      <change beforePath="$PROJECT_DIR$/organization/__init__.py" afterPath="$PROJECT_DIR$/apps/organization/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/organization/admin.py" afterPath="$PROJECT_DIR$/apps/organization/admin.py" />
-      <change beforePath="$PROJECT_DIR$/organization/apps.py" afterPath="$PROJECT_DIR$/apps/organization/apps.py" />
-      <change beforePath="$PROJECT_DIR$/organization/migrations/__init__.py" afterPath="$PROJECT_DIR$/apps/organization/migrations/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/organization/models.py" afterPath="$PROJECT_DIR$/apps/organization/models.py" />
-      <change beforePath="$PROJECT_DIR$/organization/tests.py" afterPath="$PROJECT_DIR$/apps/organization/tests.py" />
-      <change beforePath="$PROJECT_DIR$/organization/views.py" afterPath="$PROJECT_DIR$/apps/organization/views.py" />
-      <change beforePath="$PROJECT_DIR$/users/__init__.py" afterPath="$PROJECT_DIR$/apps/users/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" afterPath="$PROJECT_DIR$/apps/users/admin.py" />
-      <change beforePath="$PROJECT_DIR$/users/apps.py" afterPath="$PROJECT_DIR$/apps/users/apps.py" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0002_banner_emailverifyrecord.py" afterPath="$PROJECT_DIR$/apps/users/migrations/0002_banner_emailverifyrecord.py" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0003_auto_20180523_0803.py" afterPath="$PROJECT_DIR$/apps/users/migrations/0003_auto_20180523_0803.py" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/__init__.py" afterPath="$PROJECT_DIR$/apps/users/migrations/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" afterPath="$PROJECT_DIR$/apps/users/models.py" />
-      <change beforePath="$PROJECT_DIR$/users/tests.py" afterPath="$PROJECT_DIR$/apps/users/tests.py" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/urls.py" afterPath="$PROJECT_DIR$/MxOnline/urls.py" />
+      <change beforePath="$PROJECT_DIR$/apps/courses/models.py" afterPath="$PROJECT_DIR$/apps/courses/models.py" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/models.py" afterPath="$PROJECT_DIR$/apps/operation/models.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/models.py" afterPath="$PROJECT_DIR$/apps/users/models.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,14 +407,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MxOnline/settings.py">
+      <file leaf-file-name="adminx.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/operation/adminx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="550">
+              <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
               <folding>
-                <element signature="e#312#321#0" expanded="true" />
+                <element signature="e#25#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="60" column="3" lean-forward="false" selection-start-line="60" selection-start-column="3" selection-end-line="62" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,7 +450,17 @@
         <option value="$PROJECT_DIR$/organization/models.py" />
         <option value="$PROJECT_DIR$/operation/models.py" />
         <option value="$PROJECT_DIR$/courses/models.py" />
+        <option value="$PROJECT_DIR$/apps/users/admin.py" />
+        <option value="$PROJECT_DIR$/env/lib/python3.5/site-packages/xadmin/sites.py" />
+        <option value="$PROJECT_DIR$/MxOnline/urls.py" />
         <option value="$PROJECT_DIR$/MxOnline/settings.py" />
+        <option value="$PROJECT_DIR$/apps/courses/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/courses/models.py" />
+        <option value="$PROJECT_DIR$/apps/users/models.py" />
+        <option value="$PROJECT_DIR$/apps/users/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/organization/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/operation/models.py" />
+        <option value="$PROJECT_DIR$/apps/operation/adminx.py" />
       </list>
     </option>
   </component>
@@ -97,12 +471,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="323" />
-    <option name="y" value="55" />
-    <option name="width" value="1036" />
-    <option name="height" value="588" />
+    <option name="x" value="202" />
+    <option name="y" value="29" />
+    <option name="width" value="1118" />
+    <option name="height" value="683" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -128,7 +504,25 @@
             <path>
               <item name="MxOnline" type="b2602c69:ProjectViewProjectNode" />
               <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MxOnline" type="b2602c69:ProjectViewProjectNode" />
               <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MxOnline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="organization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MxOnline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,7 +538,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/extra_app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/extra_app/xadmin/static" />
       <recent name="$PROJECT_DIR$/apps" />
     </key>
   </component>
@@ -166,6 +564,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="MxOnline.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -200,29 +599,38 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="323" y="55" width="1036" height="588" extended-state="0" />
+    <frame x="202" y="29" width="1118" height="683" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18181819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37445888" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20914397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@MxOnline" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55411255" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@MxOnline" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45421904" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24949495" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24902724" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3967684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -234,7 +642,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -254,16 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/courses/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-711">
@@ -272,42 +672,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.5/site-packages/xadmin/sites.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
+    <entry file="file://$PROJECT_DIR$/extra_app/xadmin/.tx/config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#642#674#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MxOnline/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="286">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
-            <element signature="e#312#321#0" expanded="true" />
+            <element signature="e#312#321#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_app/xadmin/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="309" column="28" lean-forward="true" selection-start-line="309" selection-start-column="28" selection-end-line="309" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="28" column="48" lean-forward="false" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+          <folding>
+            <element signature="e#25#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="60" column="3" lean-forward="false" selection-start-line="60" selection-start-column="3" selection-end-line="62" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="e#25#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
