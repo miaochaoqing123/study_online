@@ -49,4 +49,3 @@ class Banner(models.Model):
         verbose_name_plural = verbose_name
         db_table = 'banner'
 
-
