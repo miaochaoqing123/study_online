@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'operation',
     'xadmin',
     'crispy_forms',
+    'captcha',
 ]
 
 # 重载
@@ -143,4 +144,17 @@ STATICFILES_DIRS = (
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# 配置email验证发送的邮箱
+EMAIL_HOST = 'smtp.sina.com'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = 'andy_benny_miao@sina.com'
+EMAIL_HOST_PASSWORD = 'msl123456!@'
+EMAIL_USE_TLS = False
+EMAIL_FROM = 'andy_benny_miao@sina.com'
+
+
+
+
+
 
